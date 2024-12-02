@@ -37,7 +37,6 @@ class Logs
                 return rtrim($basePath, '/').($path ? '/'.ltrim($path, '/') : '');
             }
         }
-
         $filename .= PHP_SAPI == 'cli' ? '_cli' : '';
         $filename .= '.log';
 
