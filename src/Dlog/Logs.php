@@ -7,10 +7,6 @@ use Monolog\Logger;
 
 class Logs
 {
-    public function __construct()
-    {
-    }
-
     /**
      * 创建日志文件夹
      * @param  string  $dir
