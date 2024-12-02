@@ -1,0 +1,26 @@
+{
+    "name": "delaravel-log/dlog",
+    "description": "custom laravel log",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DelaravelLog\\Dlog\\": "src/Dlog"
+        }
+    },
+    "authors": [
+        {
+            "name": "denny",
+            "email": "denny929889@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "monolog/monolog": "*"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
